@@ -4,7 +4,7 @@ This mocap db viewer is designed to allow convenient searching and batch downloa
 ## Usage
 You'll first need to populate motionDB.csv with the mocap files in /Database. The mocap files in /Database should be in both fbx and bvh format to be displayed (use blender if one is missing). For example, the below image shows the use of the CMU mocap database and some mixamo animations, with corresponding entries in motionDB.csv. 
 
-![MotionDB screenshot](/MotionDBScreenshot.jpg)
+![MotionDB screenshot](/MotionDBScreenshot.JPG)
 
 Once your database is populated and motionDB.csv has the relevant metadata, the server can be started as follows:
 
@@ -27,7 +27,8 @@ Then open a browser to point to localhost:3838. You should then be able to use t
 ## Suggested Motion Capture Resources
 We suggest looking at the following resources
 
-1. https://animationsinstitut.de/de/forschung/projects/sauce/terms-of-use-phs-motion-library 2. https://www.mixamo.com
+1. https://animationsinstitut.de/de/forschung/projects/sauce/terms-of-use-phs-motion-library 
+2. https://www.mixamo.com
 3. https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture/cmu-bvh-conversion
 
 We provide some sample CMU assets in accordance with the notice of permission given on their website: http://mocap.cs.cmu.edu/faqs.php
