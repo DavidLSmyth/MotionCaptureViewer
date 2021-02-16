@@ -1,0 +1,1 @@
+docker run -v %cd%\Database:/srv/Database:ro -p 3838:3838 --name mocap_db_viewer_container davidsmyth/mocap_db_viewer
