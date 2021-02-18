@@ -2,7 +2,10 @@
 This mocap db viewer is designed to allow convenient searching and batch downloading of animation files. This is convenient for a range of uses, for example selecting animations to be used to train a pose estimation model. Currently only supports downloading fbx files. The program was hacked together as a shiny app. 
 
 ## Usage
-You'll first need to populate motionDB.csv with the mocap files in /Database. The mocap files in /Database should be in both fbx and bvh format to be displayed (use blender if one is missing). For example, the below image shows the use of the CMU mocap database and some mixamo animations, with corresponding entries in motionDB.csv. 
+You'll first need to populate motionDB.csv with the mocap files in /Database. The mocap files in /Database should be in both fbx and bvh format to be displayed (use blender to convert if one is missing). 
+The fields are
+`File Name	 BVH Uploaded	 FBX Uploaded	 Description	 Motion Capture Class	 Origin	 Licence Details`
+For example, the below image shows the use of the CMU mocap database and some mixamo animations, with corresponding entries in motionDB.csv. 
 
 ![MotionDB screenshot](/MotionDBScreenshot.JPG)
 
